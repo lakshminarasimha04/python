@@ -1,4 +1,4 @@
-weight = input("Enter the weight: ")
-height = input("Enter the height: ")
+weight = int(input("Enter the weight: "))
+height = float(input("Enter the height: "))
 bmi = weight/height**2
 print(int(bmi))
